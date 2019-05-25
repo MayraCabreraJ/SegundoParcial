@@ -24,6 +24,19 @@ namespace Mayraparcabrera2.ViewModels
         #endregion
 
         #region Properties
+        public string Note 
+         { 
+             get 
+             { 
+                 return this.note; 
+             } 
+             set 
+             { 
+                 SetValue(ref this.note, value); 
+            }          } 
+ 
+ 
+
         public bool IsRunning
         {
             get
