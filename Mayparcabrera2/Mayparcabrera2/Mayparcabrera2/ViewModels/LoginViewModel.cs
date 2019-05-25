@@ -73,14 +73,7 @@ namespace Mayraparcabrera2.ViewModels
 
         private async void cmdLogin()
         {
-            if (String.IsNullOrEmpty(note))
-            {
-                await App.Current.MainPage.DisplayAlert("note empty",
-                                "Please enter your note",
-                                "Accept");
-                return;
-            }
-
+         
             IsRunning = true;
             IsEnabled = false;
 
