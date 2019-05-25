@@ -13,14 +13,14 @@
         #endregion
 
         #region ViewModels
-        public ApiViewModel Login { get; set; }
+        public LoginViewModel Login { get; set; }
         #endregion
 
         #region Constructors
         public MainViewModel()
         {
             instance = this;
-            this.Login = new ApiViewModel();
+            this.Login = new LoginViewModel();
         }
         #endregion
 
